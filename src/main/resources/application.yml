@@ -1,0 +1,9 @@
+management:
+  health:
+    defaults:
+      enabled: true
+  endpoints:
+    web:
+      path-mapping:
+        health: /health
+      base-path: /
